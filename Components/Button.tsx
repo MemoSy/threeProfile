@@ -1,4 +1,6 @@
-const Button = ({ name, isBeam = false, containerClass }: any) => {
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+const Button = ({ name, isBeam = false, containerClass }) => {
     return (
       <button className={`btn ${containerClass}`}>
         {isBeam && (

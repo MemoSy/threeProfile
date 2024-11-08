@@ -1,5 +1,7 @@
 "use client";
 
+
+
 import { Leva } from "leva";
 import { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
@@ -10,7 +12,6 @@ import Target from "./Target";
 import ReactLogo from "./ReactLogo";
 import Rings from "./Rings";
 import Cube from "./Cube";
-import Button from "./Button";
 import CanvasLoader from "./Loading";
 import { calculateSizes } from "@/constants";
 import { Model } from "./1";

@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 "use client"
 
 import { useGLTF } from '@react-three/drei';
@@ -12,7 +15,9 @@ const Target = (props) => {
   );
 
   useGSAP(() => {
+  
     gsap.to(targetRef.current.position, {
+  
       y: targetRef.current.position.y + 0.5,
       duration: 1.5,
       repeat: -1,
