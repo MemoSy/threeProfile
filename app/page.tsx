@@ -8,7 +8,7 @@ const Hero = dynamic(() => import("@/components/Hero"), { ssr: false })
 const About = dynamic(() => import("@/components/About"), { ssr: false })
 const Projects = dynamic(() => import("@/components/Projects"), { ssr: false })
 const Clients = dynamic(() => import("@/components/Clients"), { ssr: false })
-const Contacts = dynamic(() => import("@/components/Contacts"), { ssr: false })
+const Contacts = dynamic(() => import("@/components/Contacts"), { ssr: false }) 
 
 export default function Home() {
   return (
