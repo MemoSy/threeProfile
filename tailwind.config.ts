@@ -28,6 +28,15 @@ const config: Config = {
           500: "#62646C",
         },
       },
+      animation: {
+        'rotate-forever': 'rotate-forever 4s linear infinite',
+      },
+      keyframes: {
+        'rotate-forever': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' }
+        }
+      },
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",
       },

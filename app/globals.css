@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,7 @@
 
 body {
   background: #010103;
-  font-family: 'General Sans', sans-serif;
+  font-family: "General Sans", sans-serif;
 }
 
 @layer utilities {
@@ -57,7 +57,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center md:text-[32px] sm:text-4xl break-words text-3xl font-generalsans font-black !leading-normal;
   }
 
   /* about section */
@@ -194,4 +194,17 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+@keyframes border-slide {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.animate-border-slide {
+  animation: border-slide 3s linear infinite;
 }
