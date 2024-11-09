@@ -15,7 +15,6 @@ import { calculateSizes } from "@/constants";
 import { Model } from "./1";
 import { motion } from "framer-motion";
 import { Mouse } from "lucide-react";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -26,8 +25,6 @@ const Hero = () => {
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
-  const words = "Designing and Developing Modern Web Experiences";
-
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
@@ -35,7 +32,7 @@ const Hero = () => {
           Hi, I am Mahmud <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">
-          <TextGenerateEffect words={words} />
+          Designing and Developing Modern Web Experiences
         </p>
       </div>
 
