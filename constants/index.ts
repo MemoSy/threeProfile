@@ -59,7 +59,7 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: "Smart Online Store",
-    desc: "This individually-built project using TypeScript, Next.js 14, and AI offers a feature-rich online store with a flexible, responsive design, instant AI translation in four languages, fast search, WhatsApp communication, customization options, reward system, social sharing, and a secure control panel, along with three ready-made templates for launching or enhancing e-commerce businesses. Limited-time discount available!",
+    desc: "This individually-built project using TypeScript, Next.js 14, and AI offers a feature-rich online store with a flexible, responsive design, instant AI translation in four languages, fast search, WhatsApp communication, customization options, reward system, social sharing, and a secure control panel!",
     subdesc:
       "Built with Next.js 14, Cloudinary AI, MongoDB combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
     href: "https://www.shapeshop.store",
