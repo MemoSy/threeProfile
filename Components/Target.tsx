@@ -1,8 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
-"use client"
-
 import { useGLTF } from '@react-three/drei';
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
