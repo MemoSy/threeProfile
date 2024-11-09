@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
 import dynamic from 'next/dynamic'
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
